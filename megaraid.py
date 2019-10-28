@@ -8,7 +8,12 @@ import shlex
 import os
 
 from subprocess import Popen, PIPE
-from checks import AgentCheck
+
+try:
+    from checks import AgentCheck
+except ImportError:
+    from datadog_checks.checks import AgentCheck
+    
 from hashlib import md5
 
 class Megaraid(AgentCheck):
