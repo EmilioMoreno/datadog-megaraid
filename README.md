@@ -57,4 +57,4 @@ They can be disabled with the `disk_events` config flag (globally, or per-instan
 
 See the accompanying [megaraid](https://github.com/leucos/ansible-megaraid) and [datadog-agent](https://github.com/leucos/ansible-datadog-agent) Ansible roles.
 
-# Datadog Agentv6 and v7 support
+Datadog Agentv6 and v7 support
